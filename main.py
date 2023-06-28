@@ -34,7 +34,7 @@ def compare_faces(source_file, target_file):
 
 def main():
     source_file = './photos/source_photo.png'
-    target_file = './photos/target_photo.jpg'
+    target_file = './photos/target_photo.png'
     face_matches = compare_faces(source_file, target_file)
     print("-----------------------------------------------------------")
 
