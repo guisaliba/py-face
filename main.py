@@ -23,9 +23,9 @@ def compare_faces(source_file, target_file):
                                                   'Precision: ' + str(round(similarity, 2)) + '%')
         
         if similarity >= 98:
-            print('It is likely to be the same person in both pictures.')
+            print('It is probably the same person in both pictures.')
         else:
-            print('Likely that the same person is not in both pictures.')
+            print('It is probably not the same person in both pictures.')
     
     image_source.close()
     image_target.close()
@@ -33,8 +33,8 @@ def compare_faces(source_file, target_file):
 
 
 def main():
-    source_file = './photos/guto.png'
-    target_file = './photos/cacas.jpg'
+    source_file = './photos/source_photo.png'
+    target_file = './photos/target_photo.jpg'
     face_matches = compare_faces(source_file, target_file)
     print("-----------------------------------------------------------")
 
