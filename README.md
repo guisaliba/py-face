@@ -5,7 +5,7 @@
 
 ## Description
 
-A simple Python script to find, compare and match same faces on two different images at a time. Built and integrated with AWS Rekognition's API to provide facial analysis, face comparison, and face search capabilities via boto3.
+A simple Python script to find, compare and match same faces on two different images at a time. Integrated with AWS Rekognition's API to provide facial analysis, face comparison, and face search capabilities via boto3.
 
 ## Technologies
 
